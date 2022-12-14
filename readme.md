@@ -9,9 +9,13 @@
 
 **_git pull:_** updates the data in your local repo due to some changes in the remote repo
 
+**_git branch:_** lists all available branches
+
 **_git branch {new branch name}:_** sets a new branch
 
-**_git checkout:_** shows available working branches
+**_git branch --delete {branch name}:_** deletes a existing branch
+
+**_git checkout {branch name}:_** switchs to other branch
 
 **_git reflog --relative-date:_** get logs of your branches and its modifications (helps when need to rollback to a specific version of your app)
 
