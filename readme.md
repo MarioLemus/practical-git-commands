@@ -22,3 +22,5 @@
 **_git reset --hard {commit id}:_** direclty rollsback to a previous version (commit id, is taken from "git reflog")
 
 **_git commit --amend -m "":_** edits an incorrect commit message that hasn't been yet pushed
+
+**_git merge <branch to be merged>:_** it merges branches, to apply this command is needed to switch first to your main branch
