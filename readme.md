@@ -24,3 +24,13 @@
 **_git commit --amend -m "":_** edits an incorrect commit message that hasn't been yet pushed
 
 **_git merge <branch to be merged>:_** it merges branches, to apply this command is needed to switch first to your main branch
+
+## Git merge steps
+
+**_git switch <destination branch>:_** you have to switch from whatever branch to main (because main or any other branch you want, is gonna become the fundamental base where to merge)
+
+**_git merge <providing branch>_:** merge the providing branch into the base one
+
+**_git commit -m "mssg"_:** create a commit message for the merge process
+
+**_git push origin <base branch>_:** in this case the base branch is "main"
