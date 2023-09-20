@@ -25,6 +25,9 @@
 
 **_git merge <branch to be merged>:_** it merges branches, to apply this command is needed to switch first to your main branch
 
+**_git clone -b <branch name>  <repo link>:_** it clones a specific branch repo
+
+
 ## Git merge steps
 
 **_git switch <destination branch>:_** you have to switch from whatever branch to main (because main or any other branch you want, is gonna become the fundamental base where to merge)
