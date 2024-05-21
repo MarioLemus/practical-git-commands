@@ -13,7 +13,9 @@
 
 **_git branch {new branch name}:_** sets a new branch
 
-**_git branch --delete {branch name}:_** deletes a existing branch
+**_git branch --delete {branch name}:_** deletes an existing branch from local repo
+
+**_git push origin --delete {nombre-de-la-rama}:_** deletes an existing branch from remote repo
 
 **_git checkout {branch name}:_** switchs to other branch
 
