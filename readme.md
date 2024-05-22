@@ -9,6 +9,8 @@
 
 **_git pull:_** updates the data in your local repo due to some changes in the remote repo
 
+**_git pull origin {branch} --no-rebase:_** when there its an unknown change in the remote repo and you are not part of it yet [is the default option in this situations]  
+
 **_git branch:_** lists all available branches
 
 **_git branch {new branch name}:_** sets a new branch
