@@ -4,6 +4,7 @@
 
 - "{ }" means a space that you should replace
 - rm -fr .git: deletes a git initialization in a folder
+
 **_git branch -m "new name":_** renames the current branch name
 
 **_git push origin --delete "branch name":_** deletes the remote branch
